@@ -69,7 +69,7 @@ public class LoginClass extends BaseClass{
 		
 		Thread.sleep(3000);
 		cardNum.click();
-		
+		//using driver keyboard functions to insert text
 		driver.getKeyboard().pressKey("4");
 		driver.getKeyboard().pressKey("0");
 		driver.getKeyboard().pressKey("4");
